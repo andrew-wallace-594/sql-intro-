@@ -15,4 +15,9 @@
 -- | 2019 | New York Yankees       | 103  |
 -- +------+------------------------+------+
 
+Select year, name, wins
+From teams
+WHERE wins > 100
+Order by year; 
+
 

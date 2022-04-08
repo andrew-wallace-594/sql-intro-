@@ -13,4 +13,7 @@
 -- | 2020 | Washington Nationals              |
 -- +------+-----------------------------------+
 
+Select year, name 
+From teams;
+
 
