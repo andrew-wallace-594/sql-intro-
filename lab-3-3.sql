@@ -14,5 +14,8 @@
 -- | 1970 | Baltimore Orioles             | 108       |
 -- | 2019 | Houston Astros                | 107       |
 -- | 2004 | St. Louis Cardinals           | 105       |
-
-
+Select year, name, MAX(wins)
+From teams
+WHERE year >= 1960
+Group by year
+Order by MAX(wins) desc; 
